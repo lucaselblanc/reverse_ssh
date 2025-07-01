@@ -5,22 +5,22 @@ Transform a **target machine** into a **SOCKS5 proxy** using a **reverse SSH tun
 ## SSH Flow Comparison
 
 ```text
-======================= WELCOME TO REVERSE SSH =======================
+=========================== WELCOME TO REVERSE SSH ===========================
 
 => Standard SSH Authentication flow (4 Steps):
 
 SSH CLIENT (PUBKEY) ------------------> SSH HOST (AUTH PUBKEY)
 SSH CLIENT (SOCKS5 TRY) <------------> SSH HOST (Crypto Challenge)
 
-----------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 => Reverse SSH Authentication flow (2 Steps):
 
 SSH HOST (AUTH KEYS) <---------------> SSH CLIENT (Authorized Tunnel SOCKS5)
 
-**********************************************************************
+******************************************************************************
                                                   CREATED BY: LUCAS LEBLANC
-=======================================================================
+==============================================================================
 ```
 
 ## Environments Supported
