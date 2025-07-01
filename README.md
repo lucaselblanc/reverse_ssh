@@ -19,7 +19,7 @@ SSH CLIENT (SOCKS5 TRY) <------------> SSH HOST (Crypto Challenge)
 SSH HOST (AUTH KEYS) <---------------> SSH CLIENT (Authorized Tunnel SOCKS5)
 
 ******************************************************************************
-                                                  CREATED BY: LUCAS LEBLANC
+                                                     CREATED BY: LUCAS LEBLANC
 ==============================================================================
 ```
 
