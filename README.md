@@ -95,7 +95,7 @@ python3 ProxyConfig.py
 
 Make sure:
 
-* You can SSH into the client device with user/pass `tempass1234`
+* The host will access the client device/computer via SSH with the username: {CLIENT_USER} and the password: `tempass1234` which can be changed.
 * The client is listening and reachable at `CLIENT_IP`
 
 ---
